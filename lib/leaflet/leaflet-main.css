@@ -185,21 +185,7 @@ div.top-logo-label {
 	bottom:0px;
 }
 
-@media (max-width: 9999px) and (min-width: 301px) {
-	.legendkey {
-		/*	height: 62px; */
-		width: 482px;
-		#max-width:100%;
-		transform:scale(1);
-		-webkit-transform:scale(1);
-	}
-	.leaflet-bottom.leaflet-left {
-		left:-8px;
-		bottom:2px;
-	}
-}
-
-@media (max-width: 400px) and (min-width: 0px) {
+@media (max-width: 300px) and (min-width: 0px) {
 	.legendkey {
 		/*	height: 62px; */
 		width: 482px;
@@ -209,6 +195,20 @@ div.top-logo-label {
 	}
 	.leaflet-bottom.leaflet-left {
 		left:-97px;
+		bottom:0px;
+	}
+}
+
+@media (max-width: 400px) and (min-width: 301px) {
+	.legendkey {
+		/*	height: 62px; */
+		width: 482px;
+		#max-width:100%;
+		transform:scale(0.8);
+		-webkit-transform:scale(0.8);
+	}
+	.leaflet-bottom.leaflet-left {
+		left:-40px;
 		bottom:0px;
 	}		
 }
@@ -221,7 +221,7 @@ div.top-logo-label {
 		-webkit-transform:scale(0.9);
 	}
 	.leaflet-bottom.leaflet-left {
-		left:-7px;
+		left:-23px;
 		bottom:4px;
 	}
 }
