@@ -207,7 +207,7 @@ div.top-logo-label {
 		-webkit-transform:scale(0.7);
 	}
 	.leaflet-bottom.leaflet-left {
-		left:-40px;
+		left:-50px;
 		bottom:0px;
 	}		
 }
@@ -221,7 +221,7 @@ div.top-logo-label {
 		-webkit-transform:scale(0.8);
 	}
 	.leaflet-bottom.leaflet-left {
-		left:-48px;
+		left:-40px;
 		bottom:0px;
 	}		
 }
