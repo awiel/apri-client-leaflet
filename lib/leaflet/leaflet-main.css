@@ -222,7 +222,7 @@ div.top-logo-label {
 	}
 	.leaflet-bottom.leaflet-left {
 		left:-7px;
-		bottom:2px;
+		bottom:4px;
 	}
 }
 @media (max-width: 9999px) and (min-width: 501px) {
