@@ -217,8 +217,8 @@ div.top-logo-label {
 		/*	height: 62px; */
 		width: 482px;
 		#max-width:100%;
-		transform:scale(1);
-		-webkit-transform:scale(1);
+		transform:scale(0.9);
+		-webkit-transform:scale(0.9);
 	}
 	.leaflet-bottom.leaflet-left {
 		left:-7px;
