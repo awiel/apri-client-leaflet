@@ -203,8 +203,8 @@ div.top-logo-label {
 		/*	height: 62px; */
 		width: 482px;
 		#max-width:100%;
-		transform:scale(0.8);
-		-webkit-transform:scale(0.8);
+		transform:scale(0.7);
+		-webkit-transform:scale(0.7);
 	}
 	.leaflet-bottom.leaflet-left {
 		left:-40px;
