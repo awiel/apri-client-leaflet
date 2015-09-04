@@ -198,7 +198,6 @@ div.top-logo-label {
 		bottom:0px;
 	}
 }
-
 @media (max-width: 400px) and (min-width: 301px) {
 	.legendkey {
 		/*	height: 62px; */
@@ -212,7 +211,21 @@ div.top-logo-label {
 		bottom:0px;
 	}		
 }
-@media (max-width: 500px) and (min-width: 401px) {
+
+@media (max-width: 450px) and (min-width: 401px) {
+	.legendkey {
+		/*	height: 62px; */
+		width: 482px;
+		#max-width:100%;
+		transform:scale(0.8);
+		-webkit-transform:scale(0.8);
+	}
+	.leaflet-bottom.leaflet-left {
+		left:-40px;
+		bottom:0px;
+	}		
+}
+@media (max-width: 500px) and (min-width: 451px) {
 	.legendkey {
 		/*	height: 62px; */
 		width: 482px;
