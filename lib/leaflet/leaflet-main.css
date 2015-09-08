@@ -257,8 +257,41 @@ div.top-logo-label {
 	font-size: 13px;
 	font-family: 'OpenSans', sans-serif;
 }
+div.leaflet-popup-content-wrapper {
+	padding: 6px;
+	text-align: left;
+	border-radius: 6px;
+	display:inline-block;
+}
+.leaflet-popup-content {
+	margin: 13px 9px;
+	line-height: 1.4;
+	display: inline;
+}
+.leaflet-popup-content p {
+	margin: 18px 0;
+}
+.leaflet-popup-tip-container {
+	margin: 0 auto;
+	width: 40px;
+	height: 20px;
+	position: relative;
+	overflow: hidden;
+}
 .leaflet-popup-tip-container {
 	display:none;
 	#height:10px;
 	visible:hidden;
+}
+
+.infoctrl {
+	font-size: 13px;
+	font-family: 'OpenSans', sans-serif;
+	background-color: #fff;
+	border-radius: 4px;
+	box-shadow: 0 1px 5px rgba(0,0,0,0.65);
+	border-radius: 4px;
+	width:150px;
+	height:50px;
+	padding:8px;
 }
