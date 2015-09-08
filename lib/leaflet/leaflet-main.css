@@ -252,3 +252,11 @@ div.top-logo-label {
 	}
 }
 
+.leaflet-popup {
+	#bottom:30px !important;
+}
+.leaflet-popup-tip-container {
+	display:none;
+	#height:10px;
+	visible:hidden;
+}
