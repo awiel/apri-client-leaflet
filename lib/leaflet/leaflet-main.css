@@ -254,6 +254,8 @@ div.top-logo-label {
 
 .leaflet-popup {
 	#bottom:30px !important;
+	font-size: 13px;
+	font-family: 'OpenSans', sans-serif;
 }
 .leaflet-popup-tip-container {
 	display:none;
