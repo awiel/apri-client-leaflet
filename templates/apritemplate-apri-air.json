@@ -1,7 +1,8 @@
 {
   "templates": [
     {
-      "name": "template_apri-air",
+      "block": "template",
+	  "name": "template_apri-air",
       "blocks": [
         {
           "block": "div",
